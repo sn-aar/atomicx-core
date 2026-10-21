@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.trtc.uikit</groupId>
+  <artifactId>atomicx-core</artifactId>
+  <version>4.1.6.130</version>
+  <packaging>aar</packaging>
+  <name>atomicx-core</name>
+  <description>atomicx-core is a public library for Tencent components.</description>
+  <url>https://github.com/tencentyun/TUILiveRoom</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rulongzhang</id>
+      <name>rulongzhang</name>
+      <email>rulongzhang@tencent.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/tencentyun/TUILiveRoom.git</connection>
+    <developerConnection>https://github.com/tencentyun/TUILiveRoom.git</developerConnection>
+    <url>https://github.com/tencentyun/TUILiveRoom</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.sn-aar</groupId>
+      <artifactId>rtc_room_engine</artifactId>
+      <version>4.1.4.111</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-livedata-core</artifactId>
+      <version>2.6.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.constraintlayout</groupId>
+      <artifactId>constraintlayout</artifactId>
+      <version>2.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

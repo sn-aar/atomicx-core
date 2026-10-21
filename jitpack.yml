@@ -1,0 +1,5 @@
+jdk:
+  - openjdk17
+install:
+  - FILE="-Dfile=atomicx-core-4.1.6.130.aar"
+  - mvn install:install-file $FILE -DgroupId=io.trtc.uikit -DartifactId=atomicx-core -Dversion=4.1.6.130 -Dpackaging=aar -DpomFile=atomicx-core-4.1.6.130.pom
